@@ -2,7 +2,7 @@
 
 This project is part of an Angular Demo
 
-<img src="https://i.postimg.cc/FzBKTM1B/Screenshot-2021-10-22-185256.jpg" width="200" height="300" style="object-fit: contain;">
+![](https://i.postimg.cc/FzBKTM1B/Screenshot-2021-10-22-185256.jpg)
 
 ## Development server
 
