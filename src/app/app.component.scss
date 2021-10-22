@@ -1,0 +1,93 @@
+.user_avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 120px;
+  object-fit: cover;
+}
+
+.user_name {
+  padding: 0;
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: 900;
+}
+
+.user_email {
+  padding: 0;
+  margin: 0;
+  color: rgb(148, 148, 148);
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+#container {
+  padding: 1em;
+}
+
+#list {
+  padding: 0.8em;
+  display: block;
+  background: #fff;
+  margin-bottom: 10px;
+  border-radius: 0.3em;
+}
+
+button {
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 1em;
+  background: blueviolet;
+  color: #fff;
+  border-radius: 0.4em;
+}
+
+.col {
+  width: 33%;
+  display: inline-block;
+  padding: 40px 0;
+  color: gray;
+}
+
+#item {
+  display: flex;
+  align-items: center;
+}
+
+#title_container {
+  margin-left: 1em;
+}
+
+#pagination_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination_element {
+  margin-left: 1em;
+}
+
+.page_not_selected {
+  background: white;
+  color: blueviolet;
+  border-color: blueviolet;
+  border: 0.1em solid;
+}
+
+.page_selected {
+  background: blueviolet;
+  color: white;
+  border: none;
+  box-shadow: 1px 12px 19px 2px rgb(138 43 226 / 30%);
+}
+
+.pages_title {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 0.1em;
+  font-size: 1em;
+}
